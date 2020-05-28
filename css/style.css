@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #DADBD6;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+h1 {
+  margin: 0;
+}
+
+figure {
+  margin: 0;
+}
+figure img {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #2a607c;
+  background: linear-gradient(135deg, #2a607c 0%, #2a607c 100%);
+  padding: 20px 30px;
+  color: #fff;
+}
+header a {
+  text-decoration: none;
+  color: #fff;
+}
+header .brand figure > h1 {
+  font-weight: 700;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul li {
+  padding: 10px 20px;
+}
+
+section.banner {
+  margin: 0 0 20px 0;
+}
+
+section.page-content .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 2%;
+}
+section.page-content .row > .left-col {
+  flex: 0 0 74%;
+  margin-right: 1%;
+}
+section.page-content .row > .right-col {
+  flex: 0 0 24%;
+  margin-left: 1%;
+}
+section.page-content .row .content ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: #0072bb;
+  padding: 50px;
+  margin: 0 0 20px 0;
+}
+section.page-content .row .content ul li:nth-child(even) {
+  flex-direction: row-reverse;
+}
+section.page-content .row .content ul li .image-sec {
+  width: 25%;
+}
+section.page-content .row .content ul li .content-sec {
+  width: 75%;
+  padding: 0 30px;
+  color: #fff;
+}
+section.page-content .row .content ul li .content-sec h2 {
+  margin: 0;
+  font-size: 40px;
+  line-height: 50px;
+  width: 70%;
+}
+section.page-content .row .content ul li .content-sec p {
+  text-align: left;
+}
+section.page-content .row .sidebar {
+  background-color: #2589bd;
+}
+section.page-content .row .sidebar ul {
+  margin: 0 0 20px 0;
+  color: #fff;
+  text-align: center;
+}
+section.page-content .row .sidebar ul li h5 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 20px auto;
+}
+section.page-content .row .sidebar ul li figure {
+  margin: 20px auto;
+}
+section.page-content .row .sidebar ul li figure img {
+  width: 25%;
+  margin: 0 auto;
+}
+section.page-content .row .sidebar ul li p {
+  text-align: left;
+  padding: 0 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
